@@ -2,6 +2,8 @@ import { useRef } from "react"
 
 import { useEventListener } from "usehooks-ts"
 
+import blackLogo from "../assets/NSC_black_abbrev2.svg"
+import whiteLogo from "../assets/NSC_white_abbrev2.svg"
 import { ThemeToggle } from "../components/theme-toggle"
 import { Menu } from "./menu"
 
@@ -30,16 +32,8 @@ export function Header() {
         <div className="flex mx-[-16px] items-center justify-between relative">
           <div className="px-5 w-24 max-w-full">
             <a href="/" className="w-full block py-8 header-logo">
-              <img
-                src="/src/assets/NSC_black_abbrev2.svg"
-                alt="logo"
-                className="w-full h-8 dark:hidden"
-              />
-              <img
-                src="/src/assets/NSC_white_abbrev2.svg"
-                alt="logo"
-                className="w-full h-8 hidden dark:block"
-              />
+              <img src={blackLogo} alt="logo" className="w-full h-8 dark:hidden" />
+              <img src={whiteLogo} alt="logo" className="w-full h-8 hidden dark:block" />
             </a>
           </div>
           <div className="flex px-4 justify-between items-center w-full">

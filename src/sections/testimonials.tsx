@@ -8,9 +8,7 @@ export function Testimonials() {
       className="relative z-10 pt-[120px] pb-20 bg-primary bg-opacity-[3%]"
     >
       <div className="container">
-        <SectionHeader title="What Our Customers Say">
-          We're not happy until you're happy.
-        </SectionHeader>
+        <SectionHeader title="What Our Customers Say" />
         <div className="flex flex-wrap mx-[-16px]">
           <Testimonial customerName="Musharof Chy" projectName="Kitchen Remodel">
             Fusce at magna dapibus, ultrices nisl in, pharetra nulla. Nulla vel turpis molestie

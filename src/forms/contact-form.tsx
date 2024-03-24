@@ -55,6 +55,7 @@ export function ContactForm({ form, onSubmit }: ContactFormProps) {
             name="message_text"
             label="Message"
             register={register("message_text")}
+            rows={5}
             error={formErrors.message_text}
           />
         </div>

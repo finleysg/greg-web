@@ -1,3 +1,4 @@
+import logoFull from "../assets/NSC_color_full2.svg"
 import { Service } from "../components/service"
 
 export function About() {
@@ -10,11 +11,7 @@ export function About() {
               <div className="mb-12 lg:mb-0 max-w-[570px] wow fadeInUp" data-wow-delay=".15s">
                 <div className="w-full px-4">
                   <div className="text-center lg:text-right wow fadeInUp" data-wow-delay=".2s">
-                    <img
-                      src="/src/assets/NSC_color_full2.svg"
-                      alt="about-image"
-                      className="max-w-full mx-auto lg:mr-0"
-                    />
+                    <img src={logoFull} alt="about-image" className="max-w-full mx-auto lg:mr-0" />
                   </div>
                 </div>
               </div>
