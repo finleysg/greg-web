@@ -5,7 +5,7 @@ export function Contact() {
     <section id="contact" className="pt-[120px] pb-20 overflow-hidden">
       <div className="container">
         <div className="flex flex-wrap mx-[-16px]">
-          <div className="w-full lg:w-8/12 px-4">
+          <div className="relative w-full lg:w-8/12 px-4">
             <div
               className="bg-primary bg-opacity-[3%] dark:bg-dark rounded-md p-11 mb-12 lg:mb-5 sm:p-[55px] lg:p-11 xl:p-[55px] wow fadeInUp"
               data-wow-delay=".15s

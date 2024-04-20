@@ -34,10 +34,10 @@ export function ContactHandler() {
   }
 
   return (
-    <div>
+    <>
       <OverlaySpinner loading={busy} />
       <ContactForm form={form} onSubmit={sendMessage} />
       {error && <ErrorDisplay error={error.message} delay={5000} onClose={() => 0} />}
-    </div>
+    </>
   )
 }
